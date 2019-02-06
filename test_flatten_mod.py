@@ -19,3 +19,6 @@ class TestFlatten(unittest.TestCase):
     def test_diff_dataset(self):
         self.assertEqual(flatten_array.flatten(
             [2, 'loki', [3, 10]]), [2, 'loki', 3, 10])
+
+if __name__=='__main__':
+    unittest.main()
